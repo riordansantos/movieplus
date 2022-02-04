@@ -1,6 +1,6 @@
 {
-    "name": "movieplus",
-    "short_name": "movieplus",
+    "name": "ifood_clone",
+    "short_name": "ifood_clone",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

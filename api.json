@@ -1,0 +1,24 @@
+{
+    "movies" : [
+        {
+            "movieName": "Spider-Man No Way Home",
+            "moviePrice": "N1,900",
+            "movieImage": "spider_man"
+        },
+        {
+            "movieName": "Avengers",
+            "moviePrice": "N1,500",
+            "movieImage": "avengers"
+        },
+        {
+            "movieName": "Bird Box",
+            "moviePrice": "N2,100",
+            "movieImage": "bird_box"
+        },
+        {
+            "movieName": "Avatar 2",
+            "moviePrice": "N2,30",
+            "movieImage": "avatar"
+        }
+    ]
+}
