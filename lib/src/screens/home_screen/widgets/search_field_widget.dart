@@ -15,11 +15,12 @@ class SearchFieldWidget extends StatelessWidget {
         vertical: _maxWidth * 0.008,
       ),
       decoration: const ShapeDecoration(
-        color: Color(0xFFDFDDDD), // o original era EFEEEE mas não destacava
+        color: Color.fromARGB(
+            255, 216, 118, 118), // o original era EFEEEE mas não destacava
         shape: StadiumBorder(
           side: BorderSide(
-            color: Color(0xFFEFEFEF),
-            width: 1,
+            color: Color(0xFFFFFFFF),
+            width: 2,
             style: BorderStyle.solid,
           ),
         ),
@@ -29,15 +30,15 @@ class SearchFieldWidget extends StatelessWidget {
         decoration: InputDecoration(
           icon: Icon(
             Icons.search,
-            color: const Color(0xFF000000),
+            color: const Color(0xFFFFFFFF),
             size: MediaQuery.of(context).size.width * 0.07,
           ),
           hintText: "Search",
           floatingLabelBehavior: FloatingLabelBehavior.always,
-          hintStyle: Theme.of(context).textTheme.headline2?.copyWith(
+          hintStyle: Theme.of(context).textTheme.subtitle2?.copyWith(
                 fontSize: MediaQuery.of(context).size.width * 0.038,
                 fontWeight: FontWeight.w500,
-                color: const Color(0x88000000),
+                color: const Color(0xFFFFFFFF),
               ),
           border: InputBorder.none,
           focusedBorder: InputBorder.none,

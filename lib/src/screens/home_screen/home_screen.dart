@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:movieplus/src/screens/home_screen/tabs/favorite/favorite_tab_widget.dart';
-import 'package:movieplus/src/screens/home_screen/tabs/last_orders/last_orders_tab_widget.dart';
 import 'package:movieplus/src/screens/home_screen/tabs/home/home_tab_widget.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -9,7 +8,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3,
+      length: 2,
       child: Scaffold(
         backgroundColor: const Color(0xFF333645),
         resizeToAvoidBottomInset: false,
@@ -17,7 +16,6 @@ class HomeScreen extends StatelessWidget {
           children: [
             HomeTabWidget(),
             FavoriteTabWidget(),
-            LastOrdersTabWidget(),
           ],
         ),
         bottomNavigationBar: SizedBox(
@@ -45,9 +43,8 @@ class HomeScreen extends StatelessWidget {
                   icon: Icon(Icons.home, size: 35),
                 ),
                 Tab(icon: Icon(Icons.favorite_border, size: 35)),
-                Tab(icon: Icon(Icons.restore, size: 35)),
               ],
-              labelColor: Color(0xFF333645),
+              labelColor: Color(0xFFEA334F),
               unselectedLabelColor: Color(0xFFf9f9f6),
             ),
           ),

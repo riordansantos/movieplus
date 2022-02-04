@@ -25,7 +25,7 @@ class GetStartedScreen extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 20),
-              Image.asset("assets/images/background.png", width: screenWidth),
+              Image.asset("assets/images/logo.png", width: screenWidth),
               const SizedBox(height: 20),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,

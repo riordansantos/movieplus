@@ -76,10 +76,10 @@ class MoviePlusApp extends StatelessWidget {
               fontFamily: "Delius",
               fontSize: 17,
               fontWeight: FontWeight.w600,
-              color: Color(0xFFF9f9f6)),
+              color: Color(0xFFEA334F)),
           // cor da linha da caixa de texto
           enabledBorder: UnderlineInputBorder(
-              borderSide: BorderSide(color: Color(0xFFf9f9f6))),
+              borderSide: BorderSide(color: Color(0xFFEA334F))),
           // cor da linha da caixa de texto quando estiver selecionada
           focusedBorder: UnderlineInputBorder(
               borderSide: BorderSide(color: Color(0xFFEA334F))),
