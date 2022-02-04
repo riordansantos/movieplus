@@ -12,10 +12,9 @@ class MovieButtonWidget extends StatelessWidget {
     required this.movieName,
     required this.moviePrice,
     String? movieImage,
-    this.aspectRatio = 350 / 330, // do template
+    this.aspectRatio = 350 / 330,
     required this.onPressed,
   }) : super(key: key) {
-    // se nao for informado nenhum nome de imagem, use a padrão
     if (movieImage == null) {
       _movieImage = 'empty';
     } else {
@@ -25,9 +24,7 @@ class MovieButtonWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // usei um LayoutBuilder para poder ter acesso às informações das constraints
     return LayoutBuilder(builder: (_, BoxConstraints contraints) {
-      // altura máxima disponivel pro componente
       double _maxHeight = contraints.maxHeight;
 
       // Inkwell para responder ao toque
@@ -64,7 +61,7 @@ class MovieButtonWidget extends StatelessWidget {
                   ),
                 ),
               ),
-              // imagem do prato
+
               Align(
                 alignment: Alignment.topCenter,
                 child: FractionallySizedBox(
@@ -76,7 +73,6 @@ class MovieButtonWidget extends StatelessWidget {
                   ),
                 ),
               ),
-              // texto do nome do prato
               Align(
                 alignment: Alignment.center,
                 child: Padding(
@@ -91,7 +87,6 @@ class MovieButtonWidget extends StatelessWidget {
                   ),
                 ),
               ),
-              // texto do preço do prato
             ],
           ),
         ),
