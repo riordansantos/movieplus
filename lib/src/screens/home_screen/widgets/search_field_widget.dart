@@ -15,8 +15,7 @@ class SearchFieldWidget extends StatelessWidget {
         vertical: _maxWidth * 0.008,
       ),
       decoration: const ShapeDecoration(
-        color: Color.fromARGB(
-            255, 216, 118, 118), // o original era EFEEEE mas não destacava
+        color: Color(0xFFEA334F), // o original era EFEEEE mas não destacava
         shape: StadiumBorder(
           side: BorderSide(
             color: Color(0xFFFFFFFF),

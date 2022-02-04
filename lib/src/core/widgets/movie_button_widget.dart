@@ -17,7 +17,7 @@ class MovieButtonWidget extends StatelessWidget {
   }) : super(key: key) {
     // se nao for informado nenhum nome de imagem, use a padrão
     if (movieImage == null) {
-      _movieImage = 'veggie_tomato';
+      _movieImage = 'empty';
     } else {
       _movieImage = movieImage;
     }
