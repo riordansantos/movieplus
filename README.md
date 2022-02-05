@@ -1,16 +1,85 @@
-# movieplus
+<p align="center">
 
-A new Flutter project.
+ 
+  <p align="center">
+  <img src="https://user-images.githubusercontent.com/62452619/152622541-e4f757e2-9ccf-4aad-9646-fd3403d81514.png" alt="MoviePlus" />
+</p>
 
-## Getting Started
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=Lincense&message=MIT&color=0000ff " alt="License" />
+</p>
 
-This project is a starting point for a Flutter application.
+<p align="center">
+    Este projeto vale nota parcial da disciplina de Desenvolvimento de Aplicações Móveis
+    <br />
+  </p>
+</p>
 
-A few resources to get you started if this is your first Flutter project:
+<!-- TABLE OF CONTENTS -->
+## 🗂 Table of Contents
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+* [Sobre o projeto](#book-sobre-o-projeto)
+* [Instalação](#bricks-instalação)
+  * [Pré-requisitos](#construction-pre-requisitos)
+  * [Instalando dependências](#construction-instalando-dependencias)
+  * [Rodando o Projeto](#arrow_forward-rodando-o-projeto)
+* [Documentação](#bookmark_tabs-documentacao)
+* [Licença](#page_facing_up-licença)
+* [Autores](#woman_technologist-man_technologist-autores)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## :book: Sobre o projeto
+
+
+Foi proposto a criação de um projeto mobile valendo nota final da disciplina de Aplicações Mobile aplicando o conteúdo aprendido.
+
+
+## :bricks: Instalação
+
+Este projeto usa [Dart](https://dart.dev) e [Flutter](https://flutter.dev), você precisará deles para instalar as dependências.
+
+### :construction: Pré-requisitos
+
+Clone este repositório:
+```bash
+
+$ git clone https://github.com/riordansantos/movieplus.git
+
+# Entre na pasta `movieplus`:
+
+$ cd movieplus
+```
+
+🚨 Se você não possui git instalado em sua máquina, você pode instalá-lo [aqui](https://git-scm.com/downloads).
+
+
+### :construction: Instalando dependências
+
+Na pasta movieplus, instale as dependências pelo seguinte comando:
+
+```bash
+$ flutter pub get
+```
+
+### :arrow_forward: Rodando o Projeto
+
+Rode os seguintes comando:
+
+```bash
+
+$ flutter run
+
+```
+
+## :page_facing_up: Licença
+
+Este projeto usa a licença [MIT](https://github.com/3salles/user-crud/blob/main/LICENSE).
+
+## :woman_technologist: :man_technologist: Autores
+
+[Beatriz Salles](https://github.com/3salles)
+<br/>
+[Riordan dos Santos](https://github.com/riordansantos)
+
+
+
+<p align="center">Developed with 💜</p>
