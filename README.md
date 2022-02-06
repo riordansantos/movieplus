@@ -33,6 +33,20 @@
 Foi proposto a criação de um projeto mobile valendo nota final da disciplina de Aplicações Mobile aplicando o conteúdo aprendido.
 
 
+<table>
+  <tr>
+    <td>Página inicial</td>
+    <td>Página de autenticação</td>
+   <td>Página de Favoritos</td>
+  </tr>
+  <tr>
+    <td><img width="213" alt="home" src="https://user-images.githubusercontent.com/62452619/152692050-b8934788-df53-4245-b643-c05eceff4f6b.png"></td>
+    <td><img width="212" alt="login" src="https://user-images.githubusercontent.com/62452619/152692048-684df070-ec4c-4e12-b75e-ea3d4a79e021.png"></td>
+   <td><img width="213" alt="favorite" src="https://user-images.githubusercontent.com/62452619/152692051-c17393e7-1869-4da8-b677-deb92f282daa.png"></td>
+  </tr>
+ </table>
+
+
 ## :bricks: Instalação
 
 Este projeto usa [Dart](https://dart.dev) e [Flutter](https://flutter.dev), você precisará deles para instalar as dependências.
