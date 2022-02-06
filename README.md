@@ -49,7 +49,7 @@ Foi proposto a criação de um projeto mobile valendo nota final da disciplina d
 
 ## :bricks: Instalação
 
-Este projeto usa [Dart](https://dart.dev) e [Flutter](https://flutter.dev), você precisará deles para instalar as dependências.
+Este projeto usa [Dart](https://dart.dev), [Flutter](https://flutter.dev) e [Node](), você precisará deles para instalar as dependências.
 
 ### :construction: Pré-requisitos
 
@@ -81,6 +81,17 @@ Rode os seguintes comando:
 ```bash
 
 $ flutter run
+
+```
+
+Para rodar o backend, siga os comandos:
+
+```
+# Instale ojson-server  globalmente em seu sistema
+$ npm install -g json-server
+
+# Rode o seguinte comando para iniciar o backend
+$ json-server --watch api.json
 
 ```
 
